@@ -4,16 +4,14 @@
   /* font-family: Montserrat, sans-serif; */
   box-sizing: border-box;
 }
-body {
-  /* text-align: center; */
-}
+
 /* Top container section */
 .top-container {
   width: 100%;
   height: 100vh;
   background-image: url("./pngtree-glowing-rays-and-colorful-stripes-merge-along-a-dark-path-image_13574903.png");
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: center;
   background-size: cover;
 }
 
@@ -56,8 +54,31 @@ body {
 }
 
 hr {
-  border: dotted #eaf6f6 6px;
+  border: dotted #b6ebeb 6px;
   width: 8%;
   margin: 100px auto;
   border-bottom: none;
+}
+
+@media (max-width: 750px) {
+  .text-title {
+    padding: 2rem;
+  }
+  .text-title h1 {
+    font-size: 2.5rem;
+    font-family: "Sacramento", cursive;
+  }
+  .profile img {
+    height: 125px;
+    width: 125px;
+  }
+  .text-title h2 {
+    font-size: 1rem;
+  }
+  .profile h2 {
+    font-size: 1.5rem;
+  }
+  .intro {
+    font-size: 0.7rem;
+  }
 }
